@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ThemeOverlay.AppTheme.TextInputEditText.Outlined" parent="">
+        <item name="colorControlActivated">@color/red</item>
+    </style>
+    <style name="MyTheme" parent="android:Widget.Holo.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_baseline_more</item>
+    </style>
+    <style name="MyActionBarWidgetTheme">
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+    </style>
+    <style name="SplashScreenStyle" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/red</item>
+        <item name="colorPrimaryDark">@color/white</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>
